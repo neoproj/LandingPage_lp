@@ -1,0 +1,5 @@
+# Renomeie para config e preencha com os dados do servidor
+# NÃO commite o arquivo config (já está no .gitignore)
+
+SERVER=andre@76.13.161.233
+REMOTE_PATH=/home/andre/lp.neoclinichealth.com.br
