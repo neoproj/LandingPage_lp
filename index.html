@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta name="description" content="NeoClinic Health 3.7.0 - O Domínio do Médico Visionário. IA Preditiva, BI Financeiro e Prontuário Inteligente.">
+    <title>NeoClinic Health 3.7.0 - O Domínio do Médico Visionário</title>
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Lexend:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Scripts externos (carregados no head para disponibilidade) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body class="antialiased">
+
+    <!-- ==================== FAB WhatsApp ==================== -->
+    <a href="https://wa.me/5524992581145" target="_blank" rel="noopener noreferrer" class="whatsapp-fab" aria-label="Fale conosco pelo WhatsApp">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="" class="w-6 h-6">
+        <span>Fale Conosco</span>
+    </a>
+
+    <!-- ==================== Navegação ==================== -->
+    <nav class="bg-slate-900 border-b border-slate-800 py-4 px-6 flex justify-between items-center sticky top-0 z-40" role="navigation" aria-label="Menu principal">
+        <div class="flex items-center gap-3">
+            <img src="assets/NeoClinic-01.png?v=2" alt="NeoClinic Health" class="logo-float h-24 md:h-32 w-auto" onerror="this.style.display='none'; document.getElementById('logo-fallback-nav').style.display='block';">
+            <span id="logo-fallback-nav" class="hidden text-white font-black text-xl tracking-tighter italic">NEOCLINIC <span class="text-cyan-400">HEALTH</span></span>
+        </div>
+        <div class="hidden md:block">
+            <span class="text-slate-400 text-sm font-bold tracking-widest uppercase">Evolução v3.7.0</span>
+        </div>
+    </nav>
+
+    <!-- ==================== Hero ==================== -->
+    <header class="hero-gradient text-white pt-20 pb-32 px-6 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none" aria-hidden="true">
+            <div class="grid grid-cols-12 gap-4 h-full">
+                <div class="col-span-1 border-r border-cyan-500"></div>
+                <div class="col-span-1 border-r border-cyan-500"></div>
+                <div class="col-span-1 border-r border-cyan-500"></div>
+            </div>
+        </div>
+
+        <div class="max-w-6xl mx-auto text-center relative z-10">
+            <span class="bg-cyan-500/20 text-cyan-400 text-xs font-black px-4 py-2 rounded-full uppercase tracking-[0.3em] mb-6 inline-block">Maturidade & Domínio</span>
+            <h1 class="text-5xl md:text-8xl font-black mb-6 leading-tight tracking-tighter">
+                O Próximo Passo é o <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">Domínio.</span>
+            </h1>
+            <p class="text-xl md:text-3xl text-slate-300 font-light max-w-4xl mx-auto leading-relaxed">
+                Na v3.7.0, o NeoClinic Health deixa de ser uma ferramenta de suporte para ser o <strong>Centro de Inteligência</strong> do médico que projeta o futuro.
+            </p>
+        </div>
+    </header>
+
+    <!-- ==================== Barra de Estatísticas ==================== -->
+    <section class="max-w-5xl mx-auto -mt-16 px-6 grid grid-cols-1 md:grid-cols-3 gap-6 mb-16 relative z-20" aria-label="Principais indicadores">
+        <article class="neo-card p-8 text-center bg-white border-b-4 border-cyan-500">
+            <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">IA Preditiva</p>
+            <p class="text-4xl font-black text-slate-900">v3.7.0</p>
+        </article>
+        <article class="neo-card p-8 text-center bg-white border-b-4 border-emerald-500">
+            <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">Resultado Financeiro</p>
+            <p class="text-4xl font-black text-slate-900">+42%</p>
+        </article>
+        <article class="neo-card p-8 text-center bg-white border-b-4 border-slate-900">
+            <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">Visão de Futuro</p>
+            <p class="text-4xl font-black text-slate-900">Tempo Real</p>
+        </article>
+    </section>
+
+    <!-- ==================== Conteúdo Principal ==================== -->
+    <main class="max-w-7xl mx-auto px-6 pb-24 space-y-24">
+
+        <!-- Secção 1: IA Preditiva & Prompt -->
+        <section class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center" id="ia-preditiva">
+            <div class="md:col-span-5 space-y-6">
+                <div class="inline-block p-4 bg-cyan-100 rounded-3xl text-cyan-600 ai-pulse" aria-hidden="true">
+                    <span class="text-4xl">🧠</span>
+                </div>
+                <h2 class="text-4xl font-black text-slate-900 leading-tight">Inteligência que Antecipa, Prontuário que Dialoga.</h2>
+                <p class="text-lg text-slate-600 leading-relaxed">
+                    A nossa nova IA analisa o prontuário em tempo real e oferece um <strong>Prompt Interativo</strong>. O médico agora interage com o conhecimento acumulado da clínica para decisões soberanas.
+                </p>
+            </div>
+            <div class="md:col-span-7 neo-card p-8">
+                <h3 class="text-xl font-bold mb-6 text-slate-800">Sinergia: IA + Precisão Médica</h3>
+                <div class="chart-container">
+                    <canvas id="aiScatterChart" role="img" aria-label="Gráfico de dispersão: Poder Decisório vs Tempo"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção 2: Mestria Financeira -->
+        <section class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center" id="mestria-financeira">
+            <div class="md:col-span-7 md:order-1 order-2 neo-card p-8">
+                <h3 class="text-xl font-bold mb-6 text-slate-800">Projeção de Crescimento Patrimonial</h3>
+                <div class="chart-container">
+                    <canvas id="financialMasteryChart" role="img" aria-label="Gráfico de projeção de lucratividade e eficiência"></canvas>
+                </div>
+            </div>
+            <div class="md:col-span-5 md:order-2 order-1 space-y-6">
+                <div class="inline-block p-4 bg-emerald-100 rounded-3xl text-emerald-600" aria-hidden="true">
+                    <span class="text-3xl">💰</span>
+                </div>
+                <h2 class="text-4xl font-black text-slate-900 leading-tight">O Domínio dos Números. A Visão do Futuro.</h2>
+                <p class="text-lg text-slate-600 leading-relaxed">
+                    O médico de alto nível analisa <strong>indicadores de resultado</strong> e projeta seu crescimento. Nossa nova dashboard financeira transforma números brutos em inteligência estratégica.
+                </p>
+            </div>
+        </section>
+
+        <!-- Secção 3: Readiness Gauge -->
+        <section class="neo-card p-12 bg-slate-900 text-white text-center" id="readiness">
+            <h2 class="text-3xl font-black mb-12">Sua Clínica está pronta para o Futuro?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+                <div class="md:col-span-6 flex flex-col items-center">
+                    <div id="readinessGauge" class="w-full h-[350px]" role="img" aria-label="Gauge de prontidão tecnológica: 94%"></div>
+                    <p class="text-cyan-400 font-bold tracking-widest uppercase text-sm -mt-10">Índice de Prontidão Tecnológica</p>
+                </div>
+                <div class="md:col-span-6 text-left space-y-8">
+                    <div class="p-6 bg-slate-800 rounded-2xl border border-slate-700">
+                        <h4 class="text-xl font-bold text-cyan-400 mb-2">Poder Decisório</h4>
+                        <p class="text-slate-400 italic">O sistema v3.7.0 eleva em 85% a velocidade de diagnóstico e análise financeira.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção 4: Formulário de Contacto -->
+        <section id="contacto" class="grid grid-cols-1 md:grid-cols-12 gap-12 items-start" aria-labelledby="contacto-titulo">
+            <div class="md:col-span-5 space-y-6">
+                <h2 id="contacto-titulo" class="text-4xl font-black text-slate-900 leading-tight">Solicite uma Demonstração Personalizada</h2>
+                <p class="text-lg text-slate-600">
+                    Preencha os dados abaixo para que um dos nossos consultores especialistas em gestão clínica de alto nível entre em contacto consigo.
+                </p>
+                <ol class="space-y-4" aria-label="Passos da demonstração">
+                    <li class="flex items-center gap-4 text-slate-700">
+                        <span class="w-10 h-10 bg-cyan-100 text-cyan-600 rounded-full flex items-center justify-center font-bold flex-shrink-0">1</span>
+                        <p>Análise de cenário actual da sua clínica.</p>
+                    </li>
+                    <li class="flex items-center gap-4 text-slate-700">
+                        <span class="w-10 h-10 bg-cyan-100 text-cyan-600 rounded-full flex items-center justify-center font-bold flex-shrink-0">2</span>
+                        <p>Apresentação das ferramentas de IA e BI.</p>
+                    </li>
+                    <li class="flex items-center gap-4 text-slate-700">
+                        <span class="w-10 h-10 bg-cyan-100 text-cyan-600 rounded-full flex items-center justify-center font-bold flex-shrink-0">3</span>
+                        <p>Plano de migração seguro para a v3.7.0.</p>
+                    </li>
+                </ol>
+            </div>
+            <div class="md:col-span-7 neo-card p-8 bg-white">
+                <form id="contactForm" class="space-y-4" aria-label="Formulário de solicitação de demonstração">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="nome" class="block text-sm font-bold text-slate-700 mb-1">Nome Completo</label>
+                            <input id="nome" type="text" required name="nome" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 text-slate-900" placeholder="Dr. João Silva">
+                        </div>
+                        <div>
+                            <label for="especialidade" class="block text-sm font-bold text-slate-700 mb-1">Especialidade Médica</label>
+                            <input id="especialidade" type="text" required name="especialidade" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 text-slate-900" placeholder="Ex: Cardiologia">
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="email" class="block text-sm font-bold text-slate-700 mb-1">E-mail Institucional</label>
+                            <input id="email" type="email" required name="email" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 text-slate-900" placeholder="joao@clinica.com">
+                        </div>
+                        <div>
+                            <label for="telefone" class="block text-sm font-bold text-slate-700 mb-1">Telemóvel / WhatsApp</label>
+                            <input id="telefone" type="tel" required name="telefone" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 text-slate-900" placeholder="(24) 99999-9999">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="mensagem" class="block text-sm font-bold text-slate-700 mb-1">Como podemos ajudar a sua operação?</label>
+                        <textarea id="mensagem" rows="3" required name="mensagem" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 text-slate-900" placeholder="Descreva brevemente os seus desafios actuais..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-slate-900 text-white py-4 rounded-xl font-black text-lg hover:bg-cyan-600 transition-colors shadow-lg">
+                        Enviar Solicitação de Domínio
+                    </button>
+                </form>
+                <div id="successMessage" class="hidden mt-6 p-6 bg-emerald-100 text-emerald-800 rounded-2xl border-2 border-emerald-200 flex items-center gap-4" role="status" aria-live="polite">
+                    <span class="text-3xl" aria-hidden="true">✅</span>
+                    <div>
+                        <p class="font-black text-lg">Solicitação Enviada!</p>
+                        <p class="text-sm">Um consultor entrará em contacto em breve.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção 5: CTA Final -->
+        <section class="neo-card p-12 bg-gradient-to-r from-cyan-600 to-emerald-600 text-white text-center" aria-labelledby="cta-titulo">
+            <h3 id="cta-titulo" class="text-4xl font-black mb-4">Assuma o Comando Total.</h3>
+            <p class="text-xl opacity-90 mb-10">Migre para a versão 3.7.0 e comece a projetar o seu sucesso.</p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-4">
+                <a href="https://wa.me/5524992581145" target="_blank" rel="noopener noreferrer" class="bg-white text-slate-900 px-10 py-5 rounded-2xl font-black shadow-2xl hover:bg-slate-50 transition-all flex items-center gap-4">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="" class="w-8 h-8">
+                    Agendar Migração
+                </a>
+                <p class="text-xl font-bold border-2 border-white/40 px-8 py-5 rounded-2xl backdrop-blur-md">(24) 99258-1145</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== Rodapé ==================== -->
+    <footer class="bg-slate-900 text-white py-20 px-6 border-t border-slate-800" role="contentinfo">
+        <div class="max-w-6xl mx-auto text-center space-y-10">
+            <img src="assets/NeoClinic-01.png?v=2" alt="NeoClinic Health" class="h-28 md:h-32 mx-auto" onerror="this.style.display='none'; document.getElementById('logo-fallback-footer').style.display='block';">
+            <span id="logo-fallback-footer" class="hidden text-white font-black text-3xl tracking-tighter italic">NEOCLINIC <span class="text-cyan-400">HEALTH</span></span>
+            <p class="text-slate-400 max-w-xl mx-auto text-lg">A evolução não é apenas técnica. É o domínio sobre os dados que moldam o seu património.</p>
+            <div class="pt-10 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
+                <p class="text-xs text-slate-500 uppercase tracking-[0.2em]">IA Preditiva | BI Financeiro | Prontuário Inteligente</p>
+                <p class="text-xs text-slate-500">&copy; 2025 NeoClinic Health. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script principal -->
+    <script src="js/main.js"></script>
+</body>
+</html>
